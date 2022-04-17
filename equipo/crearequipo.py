@@ -9,7 +9,7 @@ def crear():
         equipo += equipo2 #con el metodo ramdon sumo dos listas con valores creados aleatoria mente
         Numequipo = 1
         fin = input("\nquieres crear un equipo -->")
-        if fin.lower() == "si":
+        if fin.lower() == "si" or fin.lower() == "shi":
             equipos = OrderedDict()
             NOmbre = input("\ncomo se llama el equipo -->")
             equipos[Numequipo] = NOmbre
